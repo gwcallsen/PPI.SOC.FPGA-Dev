@@ -1,0 +1,1578 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S060TFCSBGA325STD (Microsemi)
+
+--------------------------------------------------------------------------
+########   Utilization report for  Top level view:   m2s010_som   ########
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1691               100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som:	1691 (42.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1236               100 %                
+ARI1          758                100 %                
+BLACK BOX     114                100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som:	2108 (52.42 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     21                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block m2s010_som:	21 (0.52 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     17                 100 %                
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som:	17 (0.42 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       122                100 %                
+=================================================
+Total IO PADS in the block m2s010_som:	122 (3.03 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CommsFPGA_top   ########
+Instance path:   m2s010_som.CommsFPGA_top                          
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1567               92.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som.CommsFPGA_top:	1567 (38.97 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1152               93.2 %               
+ARI1          744                98.2 %               
+BLACK BOX     18                 15.8 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som.CommsFPGA_top:	1914 (47.60 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     21                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block m2s010_som.CommsFPGA_top:	21 (0.52 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     9                  52.9 %               
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som.CommsFPGA_top:	9 (0.22 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   FIFOs   ########
+Instance path:   CommsFPGA_top.FIFOs                       
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      894                52.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.FIFOs:	894 (22.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           524                42.4 %               
+ARI1          411                54.2 %               
+BLACK BOX     10                 8.77 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.FIFOs:	945 (23.50 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     21                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block CommsFPGA_top.FIFOs:	21 (0.52 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  11.8 %               
+===================================================
+Total GLOBAL BUFFERS in the block CommsFPGA_top.FIFOs:	2 (0.05 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_2Kx8   ########
+Instance path:   FIFOs.FIFO_2Kx8                               
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      158                9.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFOs.FIFO_2Kx8:	158 (3.93 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           73                 5.91 %               
+ARI1          71                 9.37 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFOs.FIFO_2Kx8:	146 (3.63 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  4.76 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFOs.FIFO_2Kx8:	1 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO   ########
+Instance path:   FIFO_2Kx8.FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO                           
+====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      158                9.34 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_2Kx8.FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO:	158 (3.93 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           73                 5.91 %               
+ARI1          71                 9.37 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_2Kx8.FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO:	146 (3.63 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  4.76 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_2Kx8.FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO:	1 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async   ########
+Instance path:   FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async      
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      146                8.63 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async:	146 (3.63 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           62                 5.02 %               
+ARI1          71                 9.37 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async:	135 (3.36 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync_0   ########
+Instance path:   FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync_0
+=================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      24                 1.42 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync_0:	24 (0.60 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync_1   ########
+Instance path:   FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync_1
+=================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      24                 1.42 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_doubleSync_1:	24 (0.60 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv   ########
+Instance path:   FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv
+==================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 0.890 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv:	11 (0.27 % Utilization)
+
+----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv_0   ########
+Instance path:   FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv_0
+====================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 0.890 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_2Kx8_FIFO_2Kx8_0_corefifo_async.FIFO_2Kx8_FIFO_2Kx8_0_corefifo_grayToBinConv_0:	11 (0.27 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper   ########
+Instance path:   FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO.FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper      
+=======================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  4.76 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_2Kx8_FIFO_2Kx8_0_COREFIFO.FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper:	1 (0.02 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top   ########
+Instance path:   FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top   
+=====================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     1                  4.76 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_2Kx8_FIFO_2Kx8_0_ram_wrapper.FIFO_2Kx8_FIFO_2Kx8_0_LSRAM_top:	1 (0.02 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9   ########
+Instance path:   FIFOs.FIFO_8Kx9                               
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      183                10.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFOs.FIFO_8Kx9:	183 (4.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           109                8.82 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFOs.FIFO_8Kx9:	193 (4.80 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFOs.FIFO_8Kx9:	5 (0.12 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO   ########
+Instance path:   FIFO_8Kx9.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO                           
+====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      183                10.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO:	183 (4.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           109                8.82 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO:	193 (4.80 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO:	5 (0.12 % Utilization)
+
+--------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3      
+============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      170                10.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3:	170 (4.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           97                 7.85 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3:	181 (4.50 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync   ########  
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync
+=================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 1.66 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync:	28 (0.70 % Utilization)
+
+---------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0   ########  
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0
+===================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 1.66 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0:	28 (0.70 % Utilization)
+
+--------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3   ########  
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3
+========================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3:	15 (0.37 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_0   ########  
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_0
+==========================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_0:	15 (0.37 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO.FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper      
+=======================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO.FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper:	5 (0.12 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top   
+=====================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper.FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top:	5 (0.12 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_0   ########
+Instance path:   FIFOs.FIFO_8Kx9_0                               
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      183                10.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFOs.FIFO_8Kx9_0:	183 (4.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           108                8.74 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFOs.FIFO_8Kx9_0:	192 (4.77 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFOs.FIFO_8Kx9_0:	5 (0.12 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0   ########
+Instance path:   FIFO_8Kx9_0.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0                         
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      183                10.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_0.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0:	183 (4.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           108                8.74 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_0.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0:	192 (4.77 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_0.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0:	5 (0.12 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0    
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      170                10.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0:	170 (4.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           96                 7.77 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0:	180 (4.48 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_0   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_0
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 1.66 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_0:	28 (0.70 % Utilization)
+
+-----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_1   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_1
+=====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 1.66 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_1:	28 (0.70 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_1   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_1
+============================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_1:	15 (0.37 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_2   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_2
+============================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_0.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_2:	15 (0.37 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_0   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0.FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_0    
+=========================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_0.FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_0:	5 (0.12 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_0   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_0.FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_0 
+=======================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_0.FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_0:	5 (0.12 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_1   ########
+Instance path:   FIFOs.FIFO_8Kx9_1                               
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      183                10.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFOs.FIFO_8Kx9_1:	183 (4.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           109                8.82 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFOs.FIFO_8Kx9_1:	193 (4.80 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFOs.FIFO_8Kx9_1:	5 (0.12 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1   ########
+Instance path:   FIFO_8Kx9_1.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1                         
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      183                10.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_1.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1:	183 (4.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           109                8.82 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_1.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1:	193 (4.80 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_1.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1:	5 (0.12 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1    
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      170                10.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1:	170 (4.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           97                 7.85 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1:	181 (4.50 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_1   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_1
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 1.66 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_1:	28 (0.70 % Utilization)
+
+-----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_2   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_2
+=====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 1.66 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_2:	28 (0.70 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_3   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_3
+============================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_3:	15 (0.37 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_4   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_4
+============================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_1.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_4:	15 (0.37 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_1   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1.FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_1    
+=========================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_1.FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_1:	5 (0.12 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_1   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_1.FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_1 
+=======================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_1.FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_1:	5 (0.12 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_2   ########
+Instance path:   FIFOs.FIFO_8Kx9_2                               
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      183                10.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFOs.FIFO_8Kx9_2:	183 (4.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           109                8.82 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFOs.FIFO_8Kx9_2:	193 (4.80 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFOs.FIFO_8Kx9_2:	5 (0.12 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2   ########
+Instance path:   FIFO_8Kx9_2.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2                         
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      183                10.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_2.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2:	183 (4.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           109                8.82 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_2.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2:	193 (4.80 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_2.FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2:	5 (0.12 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2    
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      170                10.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2:	170 (4.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           97                 7.85 %               
+ARI1          82                 10.8 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2:	181 (4.50 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_2   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_2
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 1.66 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_0_2:	28 (0.70 % Utilization)
+
+-----------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_3   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_3
+=====================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      28                 1.66 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_doubleSync_3:	28 (0.70 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_5   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_5
+============================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      16                 1.29 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_5:	16 (0.40 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_6   ########    
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_6
+============================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FIFO_8Kx9_FIFO_8Kx9_0_corefifo_async_3_2.FIFO_8Kx9_FIFO_8Kx9_0_corefifo_grayToBinConv_1_3_6:	15 (0.37 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_2   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2.FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_2    
+=========================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_COREFIFO_2.FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_2:	5 (0.12 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_2   ########
+Instance path:   FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_2.FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_2 
+=======================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     5                  23.8 %               
+====================================================
+Total MEMORY ELEMENTS in the block FIFO_8Kx9_FIFO_8Kx9_0_ram_wrapper_2.FIFO_8Kx9_FIFO_8Kx9_0_LSRAM_top_2:	5 (0.12 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   ManchesDecoder   ########
+Instance path:   CommsFPGA_top.ManchesDecoder                       
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      176                10.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.ManchesDecoder:	176 (4.38 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           178                14.4 %               
+ARI1          84                 11.1 %               
+BLACK BOX     5                  4.39 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.ManchesDecoder:	267 (6.64 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  11.8 %               
+===================================================
+Total GLOBAL BUFFERS in the block CommsFPGA_top.ManchesDecoder:	2 (0.05 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   AFE_RX_SM   ########
+Instance path:   ManchesDecoder.AFE_RX_SM                      
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 1.01 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesDecoder.AFE_RX_SM:	17 (0.42 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           17                 1.38 %               
+ARI1          9                  1.19 %               
+BLACK BOX     3                  2.63 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ManchesDecoder.AFE_RX_SM:	29 (0.72 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   ManchesDecoder_Adapter   ########
+Instance path:   ManchesDecoder.ManchesDecoder_Adapter                      
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      42                 2.48 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesDecoder.ManchesDecoder_Adapter:	42 (1.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      21                 1.7 %                
+ARI1     17                 2.24 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block ManchesDecoder.ManchesDecoder_Adapter:	38 (0.95 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   IdleLineDetector_1   ########
+Instance path:   ManchesDecoder_Adapter.IdleLineDetector_1              
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 1.01 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesDecoder_Adapter.IdleLineDetector_1:	17 (0.42 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      5                  0.4050 %             
+ARI1     17                 2.24 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block ManchesDecoder_Adapter.IdleLineDetector_1:	22 (0.55 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   ReadFIFO_Write_SM   ########
+Instance path:   ManchesDecoder.ReadFIFO_Write_SM                      
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      117                6.92 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesDecoder.ReadFIFO_Write_SM:	117 (2.91 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           140                11.3 %               
+ARI1          58                 7.65 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block ManchesDecoder.ReadFIFO_Write_SM:	200 (4.97 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  11.8 %               
+===================================================
+Total GLOBAL BUFFERS in the block ManchesDecoder.ReadFIFO_Write_SM:	2 (0.05 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   CRC16_Generator_1   ########
+Instance path:   ReadFIFO_Write_SM.CRC16_Generator_1                   
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      16                 0.9460 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ReadFIFO_Write_SM.CRC16_Generator_1:	16 (0.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block ReadFIFO_Write_SM.CRC16_Generator_1:	15 (0.37 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5.88 %               
+===================================================
+Total GLOBAL BUFFERS in the block ReadFIFO_Write_SM.CRC16_Generator_1:	1 (0.02 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   ManchesEncoder   ########
+Instance path:   CommsFPGA_top.ManchesEncoder                       
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      121                7.16 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.ManchesEncoder:	121 (3.01 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           130                10.5 %               
+ARI1          79                 10.4 %               
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.ManchesEncoder:	211 (5.25 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5.88 %               
+===================================================
+Total GLOBAL BUFFERS in the block CommsFPGA_top.ManchesEncoder:	1 (0.02 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   CRC16_Generator_0   ########
+Instance path:   ManchesEncoder.CRC16_Generator_0                      
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      16                 0.9460 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesEncoder.CRC16_Generator_0:	16 (0.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      13                 1.05 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block ManchesEncoder.CRC16_Generator_0:	13 (0.32 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   TX_Collision_Detector   ########
+Instance path:   ManchesEncoder.TX_Collision_Detector                      
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.05910 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesEncoder.TX_Collision_Detector:	1 (0.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.1620 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block ManchesEncoder.TX_Collision_Detector:	2 (0.05 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   TX_SM   ########
+Instance path:   ManchesEncoder.TX_SM                      
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      91                 5.38 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block ManchesEncoder.TX_SM:	91 (2.26 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           75                 6.07 %               
+ARI1          79                 10.4 %               
+BLACK BOX     1                  0.8770 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block ManchesEncoder.TX_SM:	155 (3.85 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   IdleLineDetector_0   ########
+Instance path:   TX_SM.IdleLineDetector_0                               
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      17                 1.01 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TX_SM.IdleLineDetector_0:	17 (0.42 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      6                  0.4850 %             
+ARI1     17                 2.24 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TX_SM.IdleLineDetector_0:	23 (0.57 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   TriDebounce   ########
+Instance path:   CommsFPGA_top.TriDebounce                       
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      54                 3.19 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.TriDebounce:	54 (1.34 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      45                 3.64 %               
+ARI1     48                 6.33 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.TriDebounce:	93 (2.31 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   Debounce   ########
+Instance path:   TriDebounce.Debounce                         
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 1.06 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TriDebounce.Debounce:	18 (0.45 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+ARI1     16                 2.11 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TriDebounce.Debounce:	31 (0.77 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   Debounce_0   ########
+Instance path:   TriDebounce.Debounce_0                         
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 1.06 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TriDebounce.Debounce_0:	18 (0.45 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+ARI1     16                 2.11 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TriDebounce.Debounce_0:	31 (0.77 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   Debounce_1   ########
+Instance path:   TriDebounce.Debounce_1                         
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 1.06 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TriDebounce.Debounce_1:	18 (0.45 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 1.21 %               
+ARI1     16                 2.11 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TriDebounce.Debounce_1:	31 (0.77 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   uP_if   ########
+Instance path:   CommsFPGA_top.uP_if                       
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      301                17.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block CommsFPGA_top.uP_if:	301 (7.49 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      257                20.8 %               
+ARI1     114                15 %                 
+=================================================
+Total COMBINATIONAL LOGIC in the block CommsFPGA_top.uP_if:	371 (9.23 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5.88 %               
+===================================================
+Total GLOBAL BUFFERS in the block CommsFPGA_top.uP_if:	1 (0.02 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   Interrupts   ########
+Instance path:   uP_if.Interrupts                               
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 1.77 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block uP_if.Interrupts:	30 (0.75 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      29                 2.35 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block uP_if.Interrupts:	29 (0.72 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   CoreAPB3   ########
+Instance path:   m2s010_som.CoreAPB3                          
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.1620 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som.CoreAPB3:	2 (0.05 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_CommsFPGA_CCC_0_FCCC   ########
+Instance path:   m2s010_som.m2s010_som_CommsFPGA_CCC_0_FCCC                          
+=====================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     3                  2.63 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som.m2s010_som_CommsFPGA_CCC_0_FCCC:	3 (0.07 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  11.8 %               
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som.m2s010_som_CommsFPGA_CCC_0_FCCC:	2 (0.05 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_ID_RES_0_IO   ########
+Instance path:   m2s010_som.m2s010_som_ID_RES_0_IO                          
+============================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       4                  3.28 %               
+=================================================
+Total IO PADS in the block m2s010_som.m2s010_som_ID_RES_0_IO:	4 (0.10 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb   ########
+Instance path:   m2s010_som.m2s010_som_sb                          
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      124                7.33 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som.m2s010_som_sb:	124 (3.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           82                 6.63 %               
+ARI1          14                 1.85 %               
+BLACK BOX     93                 81.6 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som.m2s010_som_sb:	189 (4.70 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     6                  35.3 %               
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som.m2s010_som_sb:	6 (0.15 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       79                 64.8 %               
+=================================================
+Total IO PADS in the block m2s010_som.m2s010_som_sb:	79 (1.96 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreConfigP   ########
+Instance path:   m2s010_som_sb.CoreConfigP                       
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      74                 4.38 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som_sb.CoreConfigP:	74 (1.84 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           64                 5.18 %               
+BLACK BOX     24                 21.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.CoreConfigP:	88 (2.19 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP   ########
+Instance path:   m2s010_som_sb.CoreResetP                       
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      50                 2.96 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block m2s010_som_sb.CoreResetP:	50 (1.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           17                 1.38 %               
+ARI1          14                 1.85 %               
+BLACK BOX     57                 50 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.CoreResetP:	88 (2.19 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  11.8 %               
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som_sb.CoreResetP:	2 (0.05 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_CAM_SPI_1_CLK_IO   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_CAM_SPI_1_CLK_IO                       
+====================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  0.8770 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.m2s010_som_sb_CAM_SPI_1_CLK_IO:	1 (0.02 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  0.820 %              
+=================================================
+Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_CAM_SPI_1_CLK_IO:	1 (0.02 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_CAM_SPI_1_SS0_IO   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_CAM_SPI_1_SS0_IO                       
+====================================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  0.820 %              
+=================================================
+Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_CAM_SPI_1_SS0_IO:	1 (0.02 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_CCC_0_FCCC   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_CCC_0_FCCC                       
+==============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.m2s010_som_sb_CCC_0_FCCC:	2 (0.05 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5.88 %               
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som_sb.m2s010_som_sb_CCC_0_FCCC:	1 (0.02 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_FABOSC_0_OSC   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_FABOSC_0_OSC                       
+================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     4                  3.51 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.m2s010_som_sb_FABOSC_0_OSC:	4 (0.10 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  5.88 %               
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som_sb.m2s010_som_sb_FABOSC_0_OSC:	1 (0.02 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_GPIO_1_IO   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_GPIO_1_IO                       
+=============================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  0.820 %              
+=================================================
+Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_GPIO_1_IO:	1 (0.02 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_GPIO_6_IO   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_GPIO_6_IO                       
+=============================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  0.820 %              
+=================================================
+Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_GPIO_6_IO:	1 (0.02 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_GPIO_7_IO   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_GPIO_7_IO                       
+=============================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  0.820 %              
+=================================================
+Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_GPIO_7_IO:	1 (0.02 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_MSS   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_MSS                       
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1                  0.08090 %            
+BLACK BOX     2                  1.75 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block m2s010_som_sb.m2s010_som_sb_MSS:	3 (0.07 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  11.8 %               
+===================================================
+Total GLOBAL BUFFERS in the block m2s010_som_sb.m2s010_som_sb_MSS:	2 (0.05 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       71                 58.2 %               
+=================================================
+Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_MSS:	71 (1.77 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   m2s010_som_sb_OTH_SPI_1_SS0_IO   ########
+Instance path:   m2s010_som_sb.m2s010_som_sb_OTH_SPI_1_SS0_IO                       
+====================================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  0.820 %              
+=================================================
+Total IO PADS in the block m2s010_som_sb.m2s010_som_sb_OTH_SPI_1_SS0_IO:	1 (0.02 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,89 @@
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : ON
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : OFF
+TDPR scenario            : Primary
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 122 fixed I/O macros, 0 unfixed I/O macros
+Info:  I/O Bank and Globals Assigner identified bank 'Bank9' as being fixed at VCCI:3.30V VCCR:n/a
+Info:   I/O Bank and Globals Assigner detected (1) out of (10) I/O Bank(s) with locked I/O technologies.
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.1 
+Design: m2s010_som                      Started: Fri Sep 08 15:20:50 2017
+
+Initializing High-Effort Timing-Driven Placement ...
+While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/APB3_RDATA_31_sqmuxa_1_i:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 3 seconds
+Placement Runtime            : 179 seconds
+
+Placer completed successfully.
+
+Design: m2s010_som                      
+Finished: Fri Sep 08 15:24:18 2017
+Total CPU Time:     00:03:26            Total Elapsed Time: 00:03:28
+Total Memory Usage: 470.7 Mbytes
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\designer\m2s010_som\m2s010_somStarted: Fri Sep 08 15:24:24 2017
+
+While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/APB3_RDATA_31_sqmuxa_1_i:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Final stats: search run time 1.846019
+
+Timing-driven Router completed successfully.
+
+Design: C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\designer\m2s010_som\m2s010_som
+Finished: Fri Sep 08 15:25:04 2017
+Total CPU Time:     00:00:39            Total Elapsed Time: 00:00:40
+Total Memory Usage: 2018.2 Mbytes
+                        o - o - o - o - o - o
+
+While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/APB3_RDATA_31_sqmuxa_1_i:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 47
+  Worst minimum delay slack: -0.383 ns
+
+Router 
+Design: C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\designer\m2s010_som\m2s010_somStarted: Fri Sep 08 15:25:30 2017
+
+Loading routing information for ECO mode...
+After loading previous routing information: Shorts = 0. Open nets = 6.
+Final stats: search run time 0.016792
+
+Router completed successfully.
+
+Design: C:\Users\gcallsen\Documents\GitHub\IRAIL-1.6-FPGA\designer\m2s010_som\m2s010_som
+Finished: Fri Sep 08 15:25:50 2017
+Total CPU Time:     00:00:19            Total Elapsed Time: 00:00:20
+Total Memory Usage: 1853.2 Mbytes
+                        o - o - o - o - o - o
+
+While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/APB3_RDATA_31_sqmuxa_1_i:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.
+Info: Iteration 2:
+  Total violating paths eligible for improvement: 47
+  Worst minimum delay slack: -0.383 ns
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 2173 | 56520 | 3.84       |
+| DFF           | 1975 | 56520 | 3.49       |
+| I/O Register  | 0    | 594   | 0.00       |
+| Logic Element | 2490 | 56520 | 4.41       |
++---------------+------+-------+------------+
+

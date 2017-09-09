@@ -1,0 +1,20 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+
+Date      :  Fri Aug 25 09:37:12 2017
+Project   :  C:\Users\gcallsen\Documents\Projects\FPGA\v1_6-082417-DebugCol
+Component :  m2s010_som
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/gcallsen/Documents/Projects/FPGA/v1_6-082417-DebugCol/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd
+    C:/Users/gcallsen/Documents/Projects/FPGA/v1_6-082417-DebugCol/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd
+    C:/Users/gcallsen/Documents/Projects/FPGA/v1_6-082417-DebugCol/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    C:/Users/gcallsen/Documents/Projects/FPGA/v1_6-082417-DebugCol/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    C:/Users/gcallsen/Documents/Projects/FPGA/v1_6-082417-DebugCol/component/work/m2s010_som/CommsFPGA_CCC_0/m2s010_som_CommsFPGA_CCC_0_FCCC.vhd
+    C:/Users/gcallsen/Documents/Projects/FPGA/v1_6-082417-DebugCol/component/work/m2s010_som/ID_RES_0/m2s010_som_ID_RES_0_IO.vhd
+    C:/Users/gcallsen/Documents/Projects/FPGA/v1_6-082417-DebugCol/component/work/m2s010_som/m2s010_som.vhd
+
+Stimulus files for all Simulation tools:
+    C:/Users/gcallsen/Documents/Projects/FPGA/v1_6-082417-DebugCol/component/work/m2s010_som/subsystem.bfm
+

@@ -1,0 +1,2 @@
+While analyzing gated clock network, ambiguities have been found on gates CommsFPGA_top_0/PROCESSOR_INTERFACE_INST/APB3_RDATA_31_sqmuxa_1_i:Y.
+The timing models of these gates have been simplified for Static Timing Analysis.

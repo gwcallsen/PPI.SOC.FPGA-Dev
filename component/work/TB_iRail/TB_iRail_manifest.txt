@@ -1,0 +1,13 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
+
+Date      :  Thu Jul 27 15:02:37 2017
+Project   :  C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA_PostAEWE
+Component :  TB_iRail
+Family    :  SmartFusion2
+
+
+Stimulus files for all Simulation tools:
+    C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA_PostAEWE/component/Actel/Simulation/CLK_GEN/1.0.1/CLK_GEN.vhd
+    C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA_PostAEWE/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd
+    C:/Users/gcallsen/Documents/Projects/FPGA/PPI.IRail.SoC.FPGA_PostAEWE/component/work/TB_iRail/TB_iRail.vhd
+

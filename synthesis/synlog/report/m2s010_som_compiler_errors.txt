@@ -1,0 +1,6 @@
+@E: CD255 :"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA_PostAEWE\hdl\CommsFPGA_top.vhd":368:4:368:4|No identifier "up_eop_cntdown_en" in scope
+@E: CD415 :"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA_PostAEWE\hdl\CommsFPGA_top.vhd":381:26:381:26|Expecting keyword is
+@E: CD632 :"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA_PostAEWE\hdl\CommsFPGA_top.vhd":423:39:423:39|duplicate entity name work
+@E: CD632 :"C:\Users\gcallsen\Documents\Projects\FPGA\PPI.IRail.SoC.FPGA_PostAEWE\hdl\CommsFPGA_top.vhd":463:37:463:37|duplicate entity name work
+@E: Parse errors encountered - exiting
+
